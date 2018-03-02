@@ -1,4 +1,4 @@
-public class DemoReserveringBoek {
+public class DemoReserveringBook {
 
     // op basis van Bluej AddressBook v3
     private ReserveringDatabase reserveringDatabase;
