@@ -5,19 +5,26 @@ public class ProgrammaOnderdeel {
     private double toegangsprijs;
     private boolean reserveerbaar;
     private boolean isActive;
-    private hashset<> programmas;
+    private hashset<int> programmas;
 
-
-
-public ProgrammaOnderdeel()
-{
-    naam = "";
-    aantalStoelen = new Hashmap<>();
-    toegangsprijs = 0,00;
-    reserveerbaar = true;
-    isActive = true;
-    programmas = new hashset<>();
+    public ProgrammaOnderdeel() {
+        naam = "";
+        aantalStoelen = new Hashmap<>();
+        toegangsprijs = 0, 00;
+        reserveerbaar = true;
+        isActive = true;
+        programmas = new hashset<>();
     }
+
+public ProgrammaOnderdeel(String naam, int aantalStoelen)
+{
+    naam =naam;
+    aantalStoelen =new Hashmap<aantalStoelen>();
+    toegangsprijs =0,00;
+    reserveerbaar =true;
+    isActive =true;
+    programmas =new hashset<>();
+}
 }
 
 /*Attributen/velden
