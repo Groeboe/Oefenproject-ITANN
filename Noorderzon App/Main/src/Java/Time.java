@@ -1,7 +1,9 @@
 /*This is the class in which te current time will be displayed. It also has to be available for other classes*/
+package Main.src.Java;
+import static jdk.nashorn.internal.objects.NativeDate.setTime;
 
-public class Time {
-
+public class Time
+{
     private NumberDisplay hours;
     private NumberDisplay minutes;
     private String displayString; //simulates the display
@@ -10,7 +12,7 @@ public class Time {
     {
         hours = new NumberDiplay(24);
         minutes = new NumberDisplay(60);
-//        setTime(hour, minute);
+        setTime(hour, minute);
     }
 
 
