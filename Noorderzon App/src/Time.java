@@ -6,8 +6,12 @@ public class Time {
     private NumberDisplay minutes;
     private String displayString; //simulates the display
 
-    public Time() {
-        hours = new NumberDiplay (24);
-        minutes = new Number
+    public Time(int hour, int minute)
+    {
+        hours = new NumberDiplay(24);
+        minutes = new NumberDisplay(60);
+//        setTime(hour, minute);
     }
+
+
 }
